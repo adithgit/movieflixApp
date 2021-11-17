@@ -1,0 +1,25 @@
+.actionHead{
+    padding-left: 1rem;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    overflow-x: scroll;
+}
+.card{
+    margin: 10px;
+}
+.cardImage{
+    height: 20rem;
+    border-radius: 8%;
+}
+@media (max-width: 773px){
+    .actionHead{
+        padding: 0.5rem;
+        font-size: small;
+    }
+    .cardImage{
+        height: 10rem;
+    }
+}

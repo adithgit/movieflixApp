@@ -5,7 +5,7 @@ function Header() {
         <div>
             <nav className='Header'>
                 <div className='logo'>
-                    <img src='https://ik.imagekit.io/hbsbcognwwd/Movie_-a_30b5-2qU.png?updatedAt=1637081792149' alt="logo" />
+                    <img className='imgValue' src='https://ik.imagekit.io/hbsbcognwwd/Movie_-a_30b5-2qU.png?updatedAt=1637081792149' alt="logo" />
                 </div>
                 <div className='headerOptions'>
                     <ul>
