@@ -13,9 +13,12 @@ li{
     padding: 1rem;
     cursor: pointer;
 }
-
-li:hover{
-    color: aqua;
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: aqua;
 }
 ul{
     display: flex;

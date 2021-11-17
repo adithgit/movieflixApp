@@ -10,7 +10,7 @@ function Thriller() {
         })
     },[])
     return (
-        <div>
+        <div id="thrillerHead">
             <div className="thrillerHead">
                 <h1>
                     Thriller Movies

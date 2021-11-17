@@ -11,7 +11,7 @@ function Action() {
         })
     },[])
     return (
-        <div>
+        <div id="actionHead">
             <div className="actionHead">
                 <h1>
                     Action Movies

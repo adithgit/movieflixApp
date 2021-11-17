@@ -10,7 +10,7 @@ function Comedy() {
        })
    },[])
     return (
-        <div>
+        <div id="comedyHead">
             <div className="comedyHead">
                 <h1>
                     Comedy Movies

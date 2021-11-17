@@ -12,7 +12,7 @@ function Series() {
         })
     },[])
     return (
-        <div>
+        <div id='seriesHead'>
             <div className="seriesHead">
                 <h1>
                     Series

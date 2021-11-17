@@ -7,6 +7,7 @@ import Thriller from './components/Thriller/Thriller';
 import Drama from './components/Drama/Drama';
 import Comedy from './components/Comedy/Comedy';
 import Series from './components/Series/Series';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
        <Comedy/>
        <Drama/>
        <Series/>
+       <Footer/>
     </div>
   );
 }

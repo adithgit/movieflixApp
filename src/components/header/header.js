@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+
 function Header() {
     return (
         <div>
@@ -9,18 +10,21 @@ function Header() {
                 </div>
                 <div className='headerOptions'>
                     <ul>
-                        <li>Action</li>
-                        <li>Thriller</li>
-                        <li>Comedy</li>
-                        <li>Drama</li>
-                        <li>Series</li>
+                        <li><a href="#actionHead">Action</a></li>
+                        <li><a href="#thrillerHead">Thriller</a></li>
+                        <li><a href="#comedyHead">Comedy</a></li>
+                        <li><a href="#dramaHead">Drama</a></li>
+                        <li><a href="#seriesHead">Series</a></li>
                     </ul>
                     <div class="dropdown">
                         <button class="dropbtn">Dropdown</button>
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="#actionHead">Action</a>
+                            <a href="#thrillerHead">Thriller</a>
+                            <a href="#comedyHead">Comedy</a>
+                            <a href="#dramaHead">Drama</a>
+                            <a href="#seriesHead">Series</a>
+
                         </div>
                     </div>
                 </div>

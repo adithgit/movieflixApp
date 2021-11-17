@@ -10,7 +10,7 @@ function Drama() {
         })
     },[])
     return (
-        <div>
+        <div id="dramaHead">
             <div className="dramaHead">
                 <h1>
                     Drama Movies
