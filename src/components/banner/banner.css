@@ -16,9 +16,8 @@
     -moz-border-radius: 10px;
     min-height: 400px;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     overflow-y: hidden;
     border-radius: 10px;
 
