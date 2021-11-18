@@ -8,8 +8,11 @@ import Drama from './components/Drama/Drama';
 import Comedy from './components/Comedy/Comedy';
 import Series from './components/Series/Series';
 import Footer from './components/Footer/Footer';
-
+import {useEffect} from 'react'
 function App() {
+  useEffect(()=>{
+    document.title = 'Movieflix'
+  },[])
   return (
     <div className="App">
        <Header/>

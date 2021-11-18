@@ -29,7 +29,7 @@ li::before {content: "•"; color: rgb(0, 0, 0)}
         height: 250px;
     }
     .imageSection{
-        background-size: 100% 62%;
+        background-size: cover !important;
     }
     .leftSection{
         padding: 0.3rem;
