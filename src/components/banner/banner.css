@@ -17,10 +17,10 @@
     min-height: 400px;
     overflow: hidden;
     background-repeat: no-repeat;
-    background: url(https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg)  ;
+    background-size: cover;
+    background-position: center;
     overflow-y: hidden;
     border-radius: 10px;
-    background-size: cover;
 
 }
 li::before {content: "•"; color: rgb(0, 0, 0)}

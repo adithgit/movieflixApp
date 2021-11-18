@@ -14,7 +14,7 @@ function Banner() {
     return (
         <div>
             <div className="Banner">
-                <div className='imageSection' style = {{background:`url(${imageURL+banner.backdrop_path})`}}>
+                <div className='imageSection' style = {{backgroundSize: `cover` , background:`url(${imageURL+banner.backdrop_path}) no-repeat` }}>
                     <div className="leftSection">
                         <h1>{banner.original_title}</h1>
                         <h4><ul><li>lang-{banner.original_language} </li></ul></h4>
