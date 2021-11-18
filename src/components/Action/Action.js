@@ -2,7 +2,7 @@ import React from 'react'
 import './Action.css'
 import axios from '../../API/Axios/Axios'
 import {useEffect , useState} from 'react'
-import {actionURL , imageURL, smallimgURL} from '../../API/Constants'
+import {actionURL , imageURL} from '../../API/Constants'
 function Action() {
     const [movies,setMovies] = useState([])
     useEffect(()=>{

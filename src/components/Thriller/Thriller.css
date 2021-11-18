@@ -14,7 +14,7 @@
     height: 20rem;
 }
 @media (max-width: 773px){
-    .actionHead{
+    .thrillerHead{
         padding: 0.5rem;
         font-size: small;
     }

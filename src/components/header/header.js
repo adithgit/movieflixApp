@@ -17,7 +17,7 @@ function Header() {
                         <li><a href="#seriesHead">Series</a></li>
                     </ul>
                     <div class="dropdown">
-                        <button class="dropbtn">Dropdown</button>
+                        <button class="dropbtn">Menu</button>
                         <div class="dropdown-content">
                             <a href="#actionHead">Action</a>
                             <a href="#thrillerHead">Thriller</a>
